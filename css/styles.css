@@ -118,7 +118,7 @@ input{
     margin: 42px 0;
 }
 .service{
-    width: 100%;
+    width: 300px;
     height: 422px;
     display: flex;
     flex-direction: column;
@@ -321,7 +321,12 @@ footer .contact-form label{
 
 
 /* medium screen */  
-@media screen and (max-width: 768px) and (min-width: 481px) {  } 
+@media screen and (max-width: 1000px) and (min-width: 481px) { 
+    .flex2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+ } 
 /* small screen */  
 @media screen and (max-width: 480px) {
     html, body {
