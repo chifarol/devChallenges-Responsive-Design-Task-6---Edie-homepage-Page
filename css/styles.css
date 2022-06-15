@@ -81,13 +81,11 @@ h2{
 .special-form-group{
     display:flex;
     width: 350px;
-    height: 57px;
     justify-content: space-between;
     background-color: #F2F2F2;
     border-radius:12px;
     align-items: center;
-    padding-left: 21px;
-    padding-right: 4px;
+    padding: 4px 4px 4px 21px;
     margin:9px 0;
 }
 input{
@@ -336,6 +334,19 @@ footer .contact-form label{
     width:50px;
     height:44px;
 }
+footer{
+        padding: 36px 41px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: unset;
+    }
+.brand-footer{
+        margin:64px 0;
+    }
+.developer-info{
+        margin-top: 154px;
+    }
  } 
 /* small screen */  
 @media screen and (max-width: 480px) {
@@ -388,7 +399,6 @@ h2, h3,h4{
 }
 .special-form-group{
         width: 291px;
-        height: 47px;
     }
 .flex2-h3{
     font-size:24px;
